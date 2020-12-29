@@ -58,14 +58,14 @@ import GoogleMap from "./blocks/GoogleMap";
 import Columns from "./blocks/Columns";
 import PricingTable from "./blocks/PricingTable";
 
-import { BrowserRouter, Switch, Route  } from 'react-router-dom';
+import { HashRouter, Switch, Route  } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 
 
 class Root extends Component{
     render(){
         return(
-            <BrowserRouter basename={'/'}>
+            <HashRouter basename={'/'}>
                 <Switch>
                     <Route exact path={`${process.env.PUBLIC_URL}/`} component={Demo}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/main-demo`} component={MainDemo}/>
@@ -119,7 +119,7 @@ class Root extends Component{
                     <Route component={error404}/>
 
                 </Switch>
-            </BrowserRouter>
+            </HashRouter>
         )
     }
 }

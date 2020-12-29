@@ -71,7 +71,7 @@ const featureList = [
 
 const singleDemo = [
     {
-        url: 'main-demo',
+        url: '/#/main-demo',
         imageUrl: 'demo-home.png',
         title: 'Main Demo',
         description: 'Our Template is perfect for creative agency.All agencies use this template for all purpose.',
@@ -374,7 +374,7 @@ const portfolioList = [
         label: 'New'
     },
     {
-        url: 'portfolio-home',
+        url: '#/portfolio-home',
         imageUrl: 'portfolio-home.png',
         title: 'Minimal Portfolio',
         description: 'Its a minimal portfolio template. You can be showing your portfolio perfectly by using this template.',
@@ -564,7 +564,7 @@ class Demo extends Component {
                                                 <img src="/assets/images/logo/logo-all-dark.png" alt="Trydo Images"/>
                                             </a>
                                         </div>
-                                        <p className="title">Welcome to TryDO React Creative Agency, React Portfolio and Corporate Multi Purpose Template Built With React JS. NO jQuery!</p>
+                                        <p className="title">Welcome to Pierre Segerström portfolio!<br></br>v1.0</p>
                                         <div className="purshase-btn">
                                             <a href="https://themeforest.net/checkout/from_item/25457315?license=regular" className="rn-button-style--2 btn-solid">BUY Now</a>
                                             <a href="#demo" className="rn-button-style--2 btn-border rn-btn-dark border-opacity-half">View Demos</a>
